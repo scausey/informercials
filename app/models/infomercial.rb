@@ -1,0 +1,2 @@
+class Infomercial < ApplicationRecord
+end

@@ -1,0 +1,6 @@
+<h1>Infomercials</h1>
+<% @infomercials.each do |infomercial| %>
+   <ul>
+      <li><%= link_to "#{infomercial.title}", infomercial%></li>
+   </ul>
+<% end %>
